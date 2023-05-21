@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html{
+  scroll-behavior: smooth;
+
+}
+
+
+#hero {
+  background-image: url("./assests/hero-desktop.png");
+  min-height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+@media (max-width: 576px) {
+  #hero {
+    background-image: url("./assests/hero-mobile.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
+
+.ficon:hover {
+  filter: invert(53%) sepia(68%) saturate(434%) hue-rotate(121deg)
+    brightness(101%) contrast(94%);
+}
+
+
+.slick-dots li button:before {
+    opacity: .75;
+    color: white !important;
+}
+
+.category-gradient{
+  position: absolute;
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+    background-image: linear-gradient(to bottom, var(--tw-gradient-stops));
+    --tw-gradient-from: transparent;
+    --tw-gradient-to: rgb(0 0 0 / 0);
+    --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+    --tw-gradient-to: #1a1a1a;
+}
+
+
+

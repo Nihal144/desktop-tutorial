@@ -1,0 +1,142 @@
+.sec {
+  padding: 12rem 0rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.container {
+  background: #fff;
+  padding: 3rem 2rem;
+  position: relative;
+}
+
+.wrap {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.columnleft {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0px -15px;
+  justify-content: flex-start;
+  padding: 1rem;
+}
+
+.content {
+  flex: 0 0 50%;
+}
+.columnright {
+  position: absolute;
+  top: -80px;
+  right: 0;
+  max-width: 850px;
+  height: 140%;
+  width: 45%;
+  padding-left: 1rem;
+}
+
+.columnright img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+@media screen and (max-width: 768px) {
+  .content {
+    flex: 0 0 100%;
+    max-width: 100%;
+    margin-top: 250px;
+  }
+
+  .content h1 {
+    margin-bottom: 2rem;
+    font-size: 2rem;
+  }
+
+  .content p {
+    margin-bottom: 1rem;
+    line-height: 1.5;
+  }
+}
+@media screen and (max-width: 768px) {
+  .columnright {
+    height: 320px;
+    top: -65px;
+    width: 80%;
+    margin: 0 auto;
+    left: 0;
+  }
+}
+
+
+.aboutContainer1{
+  position: relative;
+ margin-top:60px;
+  height: 100%;
+  
+
+
+}
+
+.aboutContent1{
+  position: absolute; 
+  padding:24px;
+width: 603px;
+height: 259px;
+color:white;
+left: calc(50% - 900px/2 - 70.5px);
+top: calc(30% - 355px/2 - 11px);
+background: linear-gradient(108.74deg, rgba(45, 44, 44, 0.1) 37.34%, rgba(0, 0, 0, 0.6) 106.61%);
+backdrop-filter: blur(70px);
+/* Note: backdrop-filter has minimal browser support */
+border-radius: 10px;
+z-index:1;
+--tw-shadow: inset 0 -2px 4px rgba(94,94,94,0.6);
+    --tw-shadow-colored: inset 0 -2px 4px var(--tw-shadow-color);
+    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+.aboutContent1 h2 {
+padding:24px 24px 8px 24px;
+font-size: 2.25rem/* 36px */;
+}
+
+.aboutContent1  p{
+padding:8px 24px 8px 24px;
+color:#acacaf;
+text-align: left;
+}
+
+.aboutImg{
+position: absolute;
+height: 100%;
+left: calc(50% - 553px/2 + 288.5px);
+top: calc(50% - 468px/2 - 10.5px);
+}
+@media screen and (max-width: 1051px) {
+  .aboutContainer1{
+   
+}
+  .aboutContent1 {
+   left:0;
+   width:80%;
+   height: 400px;
+   top: 40px;
+  }
+  .aboutImg{
+  left: 0;
+  top: calc(50% - 468px/2 - 10.5px);
+}
+
+.aboutContent1 h2 {
+
+font-size: 24px/* 36px */;
+}
+
+.aboutContent1  p{
+font-size: 24px/* 36px */;
+color:#acacaf;
+text-align: left;
+}
+}

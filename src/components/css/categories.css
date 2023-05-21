@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .category-container {
+    @apply flex flex-col justify-between w-full space-y-6 text-2xl text-white  md:flex-row md:space-y-0 md:space-x-8;
+  }
+
+  .category {
+    @apply relative overflow-hidden md:w-1/4;
+  }
+
+ 
+}

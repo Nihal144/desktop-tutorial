@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.people-bg {
+
+  height: 0vh;
+  object-fit: contain;
+}
+
+.people-gradient {
+  @apply absolute top-0 bottom-0 right-0 left-0 h-[350px]  bg-black opacity-60;
+}
