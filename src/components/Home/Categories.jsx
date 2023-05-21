@@ -102,7 +102,7 @@ const Categories = () => {
                   </div>
                   <div className="hidden md:contents">
                     <h5 className="w-full absolute text-center text-[20px] text-[#b6b5b5] font-normal  px-6   bottom-4 md:bottom-8 md:px-10 duration-[500ms]  md:group-hover:scale-110 transition ease-linear delay-100">
-                      furniture
+                      Furniture
                     </h5>
                   </div>
                 </div>

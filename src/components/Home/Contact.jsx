@@ -40,12 +40,13 @@ const Contact = () => {
                 </div>
                 <div>
                   <h2 className="text-2xl mb-4 font-bold">
-                    Our top services
+                    Our  services
                   </h2>
                   <div className="flex flex-col justify-center space-y-2">
-                    <p>Interiors</p>
                     <p>Architecture</p>
+                    <p>Furniture</p>
                     <p>Interiors</p>
+                    <p>Landscape</p>
                   </div>
                 </div>
               </div>
